@@ -27,7 +27,7 @@ public class NewTest {
 public void setUp() throws Exception {
    System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
     driver = new ChromeDriver();
-  baseUrl = "http://140.127.74.191/";
+  baseUrl = "http://140.127.74.191";
   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 }
   @Test
